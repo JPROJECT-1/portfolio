@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Jason Portfolio</title>
+    <meta
+      name="description"
+      content="Jason is a web and game developer specializing in full-stack web development, Android applications, and Unity game development. This portfolio showcases projects, skills, and technology stacks used in modern web and game systems."
+    />
+    <meta name="author" content="Jason" />
+
+    <link rel="canonical" href="https://gupharvest.web.id/" />
+
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Jason Portfolio" />
+    <meta
+      property="og:description"
+      content="Jason is a web and game developer specializing in full-stack web development, Android applications, and Unity game development. This portfolio showcases projects, skills, and technology stacks used in modern web and game systems."
+    />
+    <meta property="og:url" content="https://gupharvest.web.id/" />
+    <meta property="og:image" content="https://gupharvest.web.id/fav" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jason Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Jason is a web and game developer specializing in full-stack web development, Android applications, and Unity game development. This portfolio showcases projects, skills, and technology stacks used in modern web and game systems."
+    />
+    <meta name="twitter:image" content="https://gupharvest.web.id/fav" />
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffffff" />
+
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="navInner">
+        <h1>Jason</h1>
+
+        <div class="navLinks" id="navLinks">
+          <a href="#home" data-i18n="nav_home">Home</a>
+          <a href="#skills" data-i18n="nav_skills">Skills</a>
+          <a href="#about" data-i18n="nav_about">About</a>
+          <a href="#projects" data-i18n="nav_projects">Projects</a>
+          <a href="#contact" data-i18n="nav_contact">Contact</a>
+
+          <!-- LANG BUTTON MOBILE -->
+          <button class="langBtn mobileLang" onclick="toggleLang()">EN</button>
+        </div>
+
+        <!-- LANG BUTTON DESKTOP -->
+        <button class="langBtn desktopLang" onclick="toggleLang()" id="langBtn">
+          EN
+        </button>
+
+        <div class="menuBtn" onclick="toggleMenu()">☰</div>
+      </div>
+    </nav>
+
+    <div id="navOverlay"></div>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1 id="heroTitle">Hi, I'm Jason.</h1>
+        <h2 id="roleText"></h2>
+      </div>
+    </section>
+
+    <section id="skills" class="runningTextContainer">
+      <div class="runningTextInner">
+        <div class="runningTextItem">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span
+          ><span>PHP</span> <span>Java</span><span>C#</span><span>Unity</span
+          ><span>Node.js</span> <span>MySQL</span><span>Git</span
+          ><span>Android Studio</span> <span>Web Dev</span><span>Game Dev</span>
+        </div>
+
+        <!-- DUPLICATE -->
+        <div class="runningTextItem">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span
+          ><span>PHP</span> <span>Java</span><span>C#</span><span>Unity</span
+          ><span>Node.js</span> <span>MySQL</span><span>Git</span
+          ><span>Android Studio</span> <span>Web Dev</span><span>Game Dev</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="title" data-i18n="about_title">About.</h2>
+      <div class="about">
+        <p data-i18n="about_desc"></p>
+
+        <div class="about-stats">
+          <div class="about-stat">
+            <h3>10+</h3>
+            <p data-i18n="stat_projects">Completed Projects</p>
+          </div>
+          <div class="about-stat">
+            <h3>3+</h3>
+            <p data-i18n="stat_years">Years Experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="title" data-i18n="projects_title">Projects.</h2>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <img
+            src="https://img.itch.zone/aW1nLzEyNjg3MzA1LnBuZw==/32x32%23/r2WQwG.png"
+          />
+          <h3>Stickman Bross</h3>
+          <p data-i18n="proj1_desc"></p>
+          <a
+            class="view-project"
+            href="https://ycyl-studio.itch.io/stickman-bross"
+            target="_blank"
+            data-i18n="view_project"
+            >View Project</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img
+            src="https://img.itch.zone/aW1nLzIzOTMzMjAxLmpwZw==/347x500/UXRHvD.jpg"
+          />
+          <h3>Rahasia Gang Sekolah</h3>
+          <p data-i18n="proj2_desc"></p>
+          <a
+            class="view-project"
+            href="https://ycyl-studio.itch.io/rahasia-gang-sekolah"
+            target="_blank"
+            data-i18n="view_project"
+            >View Project</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img
+            src="https://img.itch.zone/aW1nLzIzOTMzMzE4LmpwZw==/347x500/Zsy%2FtM.jpg"
+          />
+          <h3>Defense Idle</h3>
+          <p data-i18n="proj3_desc"></p>
+          <a
+            class="view-project"
+            href="https://ycyl-studio.itch.io/defense-idle"
+            target="_blank"
+            data-i18n="view_project"
+            >View Project</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-simple">
+      <a href="mailto:jpwprojects1@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span data-i18n="contact_email">Email</span>
+      </a>
+
+      <a href="https://www.instagram.com/json_acc" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+        <span data-i18n="contact_instagram">Instagram</span>
+      </a>
+    </section>
+
+    <footer>© 2026 Jason – YCYL Studio</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
