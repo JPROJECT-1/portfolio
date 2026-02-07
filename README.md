@@ -46,7 +46,7 @@ The website is designed to be fast, modern, responsive, and developer-focused, w
 ---
 
 ## 📂 Project Structure
-
+```
 portfolio/
 │
 ├── index.html
@@ -56,7 +56,7 @@ portfolio/
 │ └── js/
 │
 └── README.md
-
+```
 ---
 
 ## 🎮 Featured Projects
