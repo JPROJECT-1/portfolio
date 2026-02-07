@@ -485,6 +485,10 @@ footer {
     .about p {
         font-size: 15px;
     }
+
+    nav a {
+        margin-left: 0px;
+    }
 }
 
 /* Mobile Large */
