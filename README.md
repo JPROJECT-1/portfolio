@@ -58,7 +58,7 @@ The website is designed to be fast, modern, responsive, and developer-focused, w
 - **GUP Harvest** – Church website with news, gallery, and events  
   👉 https://gupharvest.web.id/
 
-- **UMC Project** – Multimedia Student Activity Unit website at Universitas Stikubank Semarang
+- **UMC Project** – Multimedia Student Activity Unit website at Universitas Stikubank Semarang  
   👉 https://umcproject.ct.ws/
 
 ---
