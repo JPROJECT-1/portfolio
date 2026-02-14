@@ -1,6 +1,6 @@
-# 🌐 Jason Portfolio Website
+# 🌐 Jason Putra Wijaya Portfolio Website
 
-Jason is a web and game developer specializing in full-stack web development, Android applications, and Unity game development.  
+Jason Putra Wijaya is a web and game developer specializing in full-stack web development, Android applications, and Unity game development.  
 This portfolio showcases projects, skills, and technology stacks used in modern web and game systems.
 
 ---
@@ -45,42 +45,36 @@ The website is designed to be fast, modern, responsive, and developer-focused, w
 
 ---
 
-## 📂 Project Structure
-```
-portfolio/
-│
-├── index.html
-├── assets/
-│ ├── images/
-│ ├── css/
-│ └── js/
-│
-└── README.md
-```
----
-
 ## 🎮 Featured Projects
 
 - **Stickman Bross** – 2D Unity action game  
 - **Rahasia Gang Sekolah** – Indonesian mystery story game  
-- **Defense Idle** – Idle tower defense prototype  
+- **Defense Idle** – Idle tower defense prototype
 
-More projects will be added continuously.
+### 🌐 Website Projects
+- **X1Creeper** – Official website of class X-1 SMA Bonaventura Madiun  
+  👉 https://jproject-1.github.io/x1creeper/
+
+- **GUP Harvest** – Church website with news, gallery, and events  
+  👉 https://gupharvest.web.id/
+
+- **UMC Project** – Multimedia Student Activity Unit website  
+  👉 https://umcproject.ct.ws/
 
 ---
 
 ## 🌍 Live Demo
 
-🔗 https://your-domain.com  
+🔗 [https://jproject-1.github.io/portfolio/](https://jproject-1.github.io/portfolio/) 
 or  
-🔗 https://ycyl-studio.itch.io  
+🔗 [https://ycyl-studio.itch.io](https://ycyl-studio.itch.io)  
 
 ---
 
 ## 📬 Contact
 
-- 📧 Email: admin@website.com  
-- 📸 Instagram: https://instagram.com/username  
+- 📧 Email: jpwprojects1@gmail.com  
+- 📸 Instagram: [https://www.instagram.com/json_acc/](https://www.instagram.com/json_acc/)
 
 ---
 
@@ -93,6 +87,6 @@ Please give credit if you use the design or code.
 
 ## ✨ Author
 
-**Jason**  
+**Jason Putra Wijaya**  
 Web & Game Developer | Co-Founder of YCYL Studio  
 Indonesia 🇮🇩
