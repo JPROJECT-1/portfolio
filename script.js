@@ -16,10 +16,6 @@ const translations = {
     stat_projects: "Completed Projects",
     stat_years: "Years Experience",
 
-    proj1_desc: "2D action stickman game created with Unity.",
-    proj2_desc: "Indonesian mystery story game made with Unity.",
-    proj3_desc: "Idle tower defense prototype with progression system.",
-
     view_project: "View Project",
     contact_email: "Email",
     contact_instagram: "Instagram",
@@ -40,10 +36,6 @@ const translations = {
 
     stat_projects: "Proyek Selesai",
     stat_years: "Tahun Pengalaman",
-
-    proj1_desc: "Game aksi stickman 2D dibuat dengan Unity.",
-    proj2_desc: "Game cerita misteri Indonesia dibuat dengan Unity.",
-    proj3_desc: "Prototype game idle tower defense dengan sistem progres.",
 
     view_project: "Lihat Proyek",
     contact_email: "Email",
@@ -68,8 +60,10 @@ function applyLanguage() {
     .querySelectorAll(".mobileLang")
     .forEach((b) => (b.textContent = lang.toUpperCase()));
 
-  document.getElementById("heroTitle").textContent =
-    lang === "en" ? "Hi, I'm Jason." : "Halo, saya Jason.";
+  document.getElementById("heroTitle").innerHTML =
+    lang === "en"
+      ? "Hi, I'm Jason <br> Putra Wijaya."
+      : "Halo, saya Jason <br> Putra Wijaya.";
 
   localStorage.setItem("lang", lang);
 }
@@ -78,6 +72,7 @@ function applyLanguage() {
 function toggleLang() {
   lang = lang === "en" ? "id" : "en";
   applyLanguage();
+  loadProjects();
 }
 
 /* ROLE TEXT */
@@ -124,6 +119,33 @@ document.querySelectorAll(".navLinks a").forEach((link) => {
   };
 });
 
+/* ========= LOAD PROJECT FROM JSON ========= */
+
+async function loadProjects() {
+  const res = await fetch("projects.json");
+  const data = await res.json();
+
+  const container = document.getElementById("projectsGrid");
+  container.innerHTML = "";
+
+  data.forEach((p) => {
+    const card = document.createElement("div");
+    card.className = "project-card";
+
+    card.innerHTML = `
+      <img src="${p.thumbnail}">
+      <h3>${p.title}</h3>
+      <p>${p.description[lang]}</p>
+      <a class="view-project" href="${p.href}" target="_blank">
+        ${translations[lang].view_project}
+      </a>
+    `;
+
+    container.appendChild(card);
+  });
+}
+
 /* INIT */
 applyLanguage();
 changeRole();
+loadProjects();

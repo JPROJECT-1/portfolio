@@ -1,0 +1,56 @@
+[
+  {
+    "thumbnail": "https://jproject-1.github.io/x1creeper/asset/img/banner.png",
+    "title": "X1Creeper Website",
+    "description": {
+      "en": "Official website of class X-1 SMA Bonaventura Madiun.",
+      "id": "Website resmi kelas X-1 SMA Bonaventura Madiun."
+    },
+    "href": "https://jproject-1.github.io/x1creeper/"
+  },
+  {
+    "thumbnail": "https://gupharvest.web.id/img/galeri/52.webp",
+    "title": "GUP Harvest Church Website",
+    "description": {
+      "en": "Church website of GUP Harvest Madiun with news, gallery, and events.",
+      "id": "Website gereja GUP Harvest Madiun berisi warta, galeri, dan acara."
+    },
+    "href": "https://gupharvest.web.id/"
+  },
+  {
+    "thumbnail": "https://umcproject.ct.ws/img/banner.png",
+    "title": "UMC Project Website",
+    "description": {
+      "en": "Website of Multimedia Student Activity Unit at Universitas Stikubank Semarang.",
+      "id": "Website Unit Kegiatan Mahasiswa Multimedia Universitas Stikubank Semarang."
+    },
+    "href": "https://umcproject.ct.ws/"
+  },
+  {
+    "thumbnail": "https://img.itch.zone/aW1nLzEyNjg3MzA1LnBuZw==/32x32%23/r2WQwG.png",
+    "title": "Stickman Bross",
+    "description": {
+      "en": "2D action stickman game created with Unity.",
+      "id": "Game aksi stickman 2D dibuat dengan Unity."
+    },
+    "href": "https://ycyl-studio.itch.io/stickman-bross"
+  },
+  {
+    "thumbnail": "https://img.itch.zone/aW1nLzIzOTMzMjAxLmpwZw==/347x500/UXRHvD.jpg",
+    "title": "Rahasia Gang Sekolah",
+    "description": {
+      "en": "Indonesian mystery story game made with Unity.",
+      "id": "Game cerita misteri Indonesia dibuat dengan Unity."
+    },
+    "href": "https://ycyl-studio.itch.io/rahasia-gang-sekolah"
+  },
+  {
+    "thumbnail": "https://img.itch.zone/aW1nLzIzOTMzMzE4LmpwZw==/347x500/Zsy%2FtM.jpg",
+    "title": "Defense Idle",
+    "description": {
+      "en": "Idle tower defense prototype with progression system.",
+      "id": "Prototype game idle tower defense dengan sistem progres."
+    },
+    "href": "https://ycyl-studio.itch.io/defense-idle"
+  }
+]

@@ -5,7 +5,15 @@
     font-family: Inter;
 }
 
+html {
+    width: 100%;
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
+}
+
 body {
+    max-width: 1200px;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -14,12 +22,11 @@ body {
     background: #0b0f14;
     color: white;
     scroll-behavior: smooth;
-    padding-top: 90px;
-    /* FIX NAV OVERLAP */
 }
 
 /* NAVBAR */
 nav {
+    max-width: 1200px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -120,7 +127,7 @@ nav h1 {
 }
 
 /* Desktop lang hidden in mobile */
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     .desktopLang {
         display: none;
     }
@@ -453,7 +460,7 @@ footer {
 }
 
 /* ========== MOBILE NAVBAR FIX ========== */
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     body {
         padding-top: 70px;
     }
