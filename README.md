@@ -66,8 +66,6 @@ The website is designed to be fast, modern, responsive, and developer-focused, w
 ## 🌍 Live Demo
 
 🔗 [https://jproject-1.github.io/portfolio/](https://jproject-1.github.io/portfolio/) 
-or  
-🔗 [https://ycyl-studio.itch.io](https://ycyl-studio.itch.io)  
 
 ---
 
